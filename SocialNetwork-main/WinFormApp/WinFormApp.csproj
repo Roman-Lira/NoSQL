@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DynamoDal\DynamoDal.csproj" />
+    <ProjectReference Include="..\MongoDal\MongoDal.csproj" />
+    <ProjectReference Include="..\NeoDal\NeoDal.csproj" />
+    <ProjectReference Include="..\RedisDAL\RedisDAL.csproj" />
+  </ItemGroup>
+
+</Project>
